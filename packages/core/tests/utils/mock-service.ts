@@ -9,7 +9,7 @@ import {
 async function flushDataToResponse(
   res: ServerResponse,
   chunks: { value: object }[],
-  suffix?: string,
+  suffix?: string
 ) {
   let resolve = () => {};
   let waitForDrain = new Promise<void>(res => (resolve = res));
@@ -70,10 +70,10 @@ export const setup = () => {
                         recentFlushed.push(target.value);
                         return target.value;
                       },
-                    },
-                  ),
+                    }
+                  )
               ),
-              '[DONE]',
+              '[DONE]'
             );
             break;
           default:
@@ -101,10 +101,10 @@ export const setup = () => {
                         recentFlushed.push(target.value);
                         return target.value;
                       },
-                    },
-                  ),
+                    }
+                  )
               ),
-              '[DONE]',
+              '[DONE]'
             );
             break;
           default:

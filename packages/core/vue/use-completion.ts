@@ -15,7 +15,7 @@ export type UseCompletionHelpers = {
    */
   complete: (
     prompt: string,
-    options?: RequestOptions,
+    options?: RequestOptions
   ) => Promise<string | null | undefined>;
   /**
    * Abort the current API request but keep the generated tokens.
@@ -65,12 +65,12 @@ export function useCompletion({
   const key = `${api}|${completionId}`;
   const { data, mutate: originalMutate } = useSWRV<string>(
     key,
-    () => store[key] || initialCompletion,
+    () => store[key] || initialCompletion
   );
 
   const { data: isLoading, mutate: mutateLoading } = useSWRV<boolean>(
     `${completionId}-loading`,
-    null,
+    null
   );
 
   isLoading.value ??= false;
@@ -125,7 +125,7 @@ export function useCompletion({
 
       if (!res.ok) {
         throw new Error(
-          (await res.text()) || 'Failed to fetch the chat response.',
+          (await res.text()) || 'Failed to fetch the chat response.'
         );
       }
 
@@ -178,7 +178,7 @@ export function useCompletion({
 
   const complete: UseCompletionHelpers['complete'] = async (
     prompt,
-    options,
+    options
   ) => {
     return triggerRequest(prompt, options);
   };

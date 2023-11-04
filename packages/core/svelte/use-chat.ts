@@ -25,7 +25,7 @@ export type UseChatHelpers = {
    */
   append: (
     message: Message | CreateMessage,
-    chatRequestOptions?: ChatRequestOptions,
+    chatRequestOptions?: ChatRequestOptions
   ) => Promise<string | null | undefined>;
   /**
    * Reload the last AI chat response for the given chat history. If the last
@@ -33,7 +33,7 @@ export type UseChatHelpers = {
    * new response.
    */
   reload: (
-    chatRequestOptions?: ChatRequestOptions,
+    chatRequestOptions?: ChatRequestOptions
   ) => Promise<string | null | undefined>;
   /**
    * Abort the current request immediately, keep the generated tokens if any.
@@ -66,7 +66,7 @@ const getStreamedResponse = async (
   abortControllerRef: AbortController | null,
   onFinish?: (message: Message) => void,
   onResponse?: (response: Response) => void | Promise<void>,
-  sendExtraMessageFields?: boolean,
+  sendExtraMessageFields?: boolean
 ) => {
   // Do an optimistic update to the chat state to show the updated messages
   // immediately.
@@ -85,7 +85,7 @@ const getStreamedResponse = async (
               ...(function_call !== undefined && {
                 function_call: function_call,
               }),
-            }),
+            })
           ),
       ...extraMetadata.body,
       ...chatRequest.options?.body,
@@ -153,7 +153,7 @@ const getStreamedResponse = async (
     const functionStart = streamedResponse.indexOf('{');
     if (functionStart !== -1) {
       const matches = /(.*?)(?:({"function_call".*?}})(.*))?$/gs.exec(
-        streamedResponse,
+        streamedResponse
       );
       responseMessage.content = `${matches?.[1] ?? ''}${matches?.[3] ?? ''}`;
       // While the function call is streaming, it will be a string.
@@ -174,7 +174,7 @@ const getStreamedResponse = async (
   if (typeof responseMessage.function_call === 'string') {
     // Once the stream is complete, the function call is parsed into an object.
     const parsedFunctionCall: FunctionCall = JSON.parse(
-      responseMessage.function_call,
+      responseMessage.function_call
     ).function_call;
 
     responseMessage.function_call = parsedFunctionCall;
@@ -262,7 +262,7 @@ export function useChat({
           abortController,
           onFinish,
           onResponse,
-          sendExtraMessageFields,
+          sendExtraMessageFields
         );
 
         if (
@@ -314,7 +314,7 @@ export function useChat({
 
   const append: UseChatHelpers['append'] = async (
     message: Message | CreateMessage,
-    { options, functions, function_call }: ChatRequestOptions = {},
+    { options, functions, function_call }: ChatRequestOptions = {}
   ) => {
     if (!message.id) {
       message.id = nanoid();
@@ -383,7 +383,7 @@ export function useChat({
         role: 'user',
         createdAt: new Date(),
       },
-      options,
+      options
     );
     input.set('');
   };
@@ -392,7 +392,7 @@ export function useChat({
     [isSWRLoading, loading],
     ([$isSWRLoading, $loading]) => {
       return $isSWRLoading || $loading;
-    },
+    }
   );
 
   return {

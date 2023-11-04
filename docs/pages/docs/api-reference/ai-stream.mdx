@@ -99,7 +99,7 @@ function parseAnthropicStream(): AIStreamParser {
 
 export function AnthropicStream(
   res: Response,
-  cb?: AIStreamCallbacks,
+  cb?: AIStreamCallbacks
 ): ReadableStream {
   return AIStream(res, parseAnthropicStream(), cb);
 }

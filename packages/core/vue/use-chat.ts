@@ -23,7 +23,7 @@ export type UseChatHelpers = {
    */
   append: (
     message: Message | CreateMessage,
-    options?: RequestOptions,
+    options?: RequestOptions
   ) => Promise<string | null | undefined>;
   /**
    * Reload the last AI chat response for the given chat history. If the last
@@ -74,12 +74,12 @@ export function useChat({
   const key = `${api}|${chatId}`;
   const { data, mutate: originalMutate } = useSWRV<Message[]>(
     key,
-    () => store[key] || initialMessages,
+    () => store[key] || initialMessages
   );
 
   const { data: isLoading, mutate: mutateLoading } = useSWRV<boolean>(
     `${chatId}-loading`,
-    null,
+    null
   );
 
   isLoading.value ??= false;
@@ -100,7 +100,7 @@ export function useChat({
   let abortController: AbortController | null = null;
   async function triggerRequest(
     messagesSnapshot: Message[],
-    options?: RequestOptions,
+    options?: RequestOptions
   ) {
     try {
       error.value = undefined;
@@ -148,7 +148,7 @@ export function useChat({
         // Restore the previous messages if the request fails.
         mutate(previousMessages);
         throw new Error(
-          (await res.text()) || 'Failed to fetch the chat response.',
+          (await res.text()) || 'Failed to fetch the chat response.'
         );
       }
       if (!res.body) {
