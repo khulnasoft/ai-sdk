@@ -47,7 +47,7 @@ export { createChunkDecoder };
  *
  * Example:
  * ```
- * 0:Vercel
+ * 0:Khulnasoft
  * 0:'s
  * 0: AI
  * 0: AI
