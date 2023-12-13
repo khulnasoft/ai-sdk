@@ -6,7 +6,7 @@ import { Steps, Callout } from 'nextra-theme-docs';
 
 # Fireworks.ai
 
-Vercel AI SDK provides a set of utilities to make it easy to use [Fireworks.ai](https://app.fireworks.ai)'s APIs and models. In this guide, we'll walk through how to use the utilities to create a chat bot and a text completion app.
+KhulnaSoft AI SDK provides a set of utilities to make it easy to use [Fireworks.ai](https://app.fireworks.ai)'s APIs and models. In this guide, we'll walk through how to use the utilities to create a chat bot and a text completion app.
 
 <Callout>
   Fireworks.ai's REST APIs [are compatible with
@@ -21,7 +21,7 @@ Vercel AI SDK provides a set of utilities to make it easy to use [Fireworks.ai](
 
 ### Create a Next.js app
 
-Create a Next.js application and install `ai` and `openai`, the Vercel AI SDK and OpenAI API client respectively. Fireworks' REST APIs [are compatible with OpenAI](https://readme.fireworks.ai/docs/getting-started-with-your-api#openai-python-client-library)'s so we will use OpenAI's JavaScript SDK to make the requests.
+Create a Next.js application and install `ai` and `openai`, the KhulnaSoft AI SDK and OpenAI API client respectively. Fireworks' REST APIs [are compatible with OpenAI](https://readme.fireworks.ai/docs/getting-started-with-your-api#openai-python-client-library)'s so we will use OpenAI's JavaScript SDK to make the requests.
 
 ````sh
 
@@ -77,8 +77,8 @@ export async function POST(req: Request) {
 ```
 
 <Callout>
-  Vercel AI SDK provides 2 utility helpers to make the above seamless: First, we
-  pass the streaming `response` we receive from OpenAI to
+  KhulnaSoft AI SDK provides 2 utility helpers to make the above seamless:
+  First, we pass the streaming `response` we receive from OpenAI to
   [`OpenAIStream`](/docs/api-reference/openai-stream). This method
   decodes/extracts the text tokens in the response and then re-encodes them
   properly for simple consumption. We can then pass that new stream directly to

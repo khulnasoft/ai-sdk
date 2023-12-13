@@ -6,7 +6,7 @@ title: Hugging Face
 
 import { Steps, Callout } from 'nextra-theme-docs';
 
-Vercel AI SDK provides a set of utilities to make it easy to use Hugging Face's APIs. In this guide, we'll walk through how to use the utilities to create a chat bot and a text completion app. Hugging Face offers two API services:
+KhulnaSoft AI SDK provides a set of utilities to make it easy to use Hugging Face's APIs. In this guide, we'll walk through how to use the utilities to create a chat bot and a text completion app. Hugging Face offers two API services:
 
 - **Free Inference API:** Use over 100k+ models out of the box. Ideal for quick exploration of models.
 - **Inference Endpoints:** Production-ready service with autoscaling, dedicated infra and flexibility.
@@ -76,8 +76,9 @@ export async function POST(req: Request) {
 ```
 
 <Callout>
-  Vercel AI SDK provides 2 utility helpers to make the above seamless: First, we
-  pass the streaming `response` we receive from `Hf.textGenerationStream` to
+  KhulnaSoft AI SDK provides 2 utility helpers to make the above seamless:
+  First, we pass the streaming `response` we receive from
+  `Hf.textGenerationStream` to
   [`HuggingFaceStream`](/docs/api-reference/huggingface-stream). This method
   decodes/extracts the text tokens in the response and then re-encodes them
   properly for simple consumption. We can then pass that new stream directly to

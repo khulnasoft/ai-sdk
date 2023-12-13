@@ -1,6 +1,6 @@
-# Vercel AI SDK, Next.js, and Cohere Example
+# KhulnaSoft AI SDK, Next.js, and Cohere Example
 
-This example shows how to use the [Vercel AI SDK](https://ai.khulnasoft.com/docs) with [Next.js](https://nextjs.org/) and [Cohere](https://docs.cohere.com/docs).
+This example shows how to use the [KhulnaSoft AI SDK](https://ai.khulnasoft.com/docs) with [Next.js](https://nextjs.org/) and [Cohere](https://docs.cohere.com/docs).
 
 ## Deploy your own
 
@@ -33,9 +33,9 @@ To run the example locally you need to:
 
 ## Learn More
 
-To learn more about OpenAI, Next.js, and the Vercel AI SDK take a look at the following resources:
+To learn more about OpenAI, Next.js, and the KhulnaSoft AI SDK take a look at the following resources:
 
-- [Vercel AI SDK docs](https://ai.khulnasoft.com/docs)
+- [KhulnaSoft AI SDK docs](https://ai.khulnasoft.com/docs)
 - [Vercel AI Playground](https://play.vercel.ai)
 - [Cohere Documentation](https://docs.cohere.com/docs) - learn about Cohere features and API.
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.

@@ -1,6 +1,6 @@
-# Vercel AI SDK, Nuxt and LangChain, and OpenAI Chat Example
+# KhulnaSoft AI SDK, Nuxt and LangChain, and OpenAI Chat Example
 
-This example shows how to use the [Vercel AI SDK](https://ai.khulnasoft.com/docs) with [Nuxt](https://nuxt.com/), and [LangChain](https://js.langchain.com) to create a ChatGPT-like AI-powered streaming chat bot.
+This example shows how to use the [KhulnaSoft AI SDK](https://ai.khulnasoft.com/docs) with [Nuxt](https://nuxt.com/), and [LangChain](https://js.langchain.com) to create a ChatGPT-like AI-powered streaming chat bot.
 
 ## Deploy your own
 
@@ -26,9 +26,9 @@ To run the example locally you need to:
 
 ## Learn More
 
-To learn more about OpenAI, Nuxt, Langchain and the Vercel AI SDK take a look at the following resources:
+To learn more about OpenAI, Nuxt, Langchain and the KhulnaSoft AI SDK take a look at the following resources:
 
-- [Vercel AI SDK docs](https://ai.khulnasoft.com/docs) - learn mode about the Vercel AI SDK
+- [KhulnaSoft AI SDK docs](https://ai.khulnasoft.com/docs) - learn mode about the KhulnaSoft AI SDK
 - [Vercel AI Playground](https://play.vercel.ai) - compare and tune 20+ AI models side-by-side
 - [LangChain Documentation](https://js.langchain.com/docs) - learn about LangChain
 - [OpenAI Documentation](https://platform.openai.com/docs) - learn about OpenAI features and API.

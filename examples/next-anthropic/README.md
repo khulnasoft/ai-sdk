@@ -1,6 +1,6 @@
-# Vercel AI SDK, Next.js, and Anthropic (Claude) Chat Example
+# KhulnaSoft AI SDK, Next.js, and Anthropic (Claude) Chat Example
 
-This example shows how to use the [Vercel AI SDK](https://ai.khulnasoft.com/docs) with [Next.js](https://nextjs.org/) and [Anthropic's Claude Model](https://docs.anthropic.com/claude/reference/getting-started-with-the-api) to create a Claude-like AI-powered streaming chat bot.
+This example shows how to use the [KhulnaSoft AI SDK](https://ai.khulnasoft.com/docs) with [Next.js](https://nextjs.org/) and [Anthropic's Claude Model](https://docs.anthropic.com/claude/reference/getting-started-with-the-api) to create a Claude-like AI-powered streaming chat bot.
 
 ## Deploy your own
 
@@ -34,9 +34,9 @@ To run the example locally you need to:
 
 ## Learn More
 
-To learn more about OpenAI, Next.js, and the Vercel AI SDK take a look at the following resources:
+To learn more about OpenAI, Next.js, and the KhulnaSoft AI SDK take a look at the following resources:
 
-- [Vercel AI SDK docs](https://ai.khulnasoft.com/docs)
+- [KhulnaSoft AI SDK docs](https://ai.khulnasoft.com/docs)
 - [Vercel AI Playground](https://play.vercel.ai)
 - [Claude Documentation](https://docs.anthropic.com/claude/reference/getting-started-with-the-api) - learn about Claude features and API.
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.

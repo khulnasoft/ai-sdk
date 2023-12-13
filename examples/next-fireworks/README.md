@@ -1,6 +1,6 @@
-2# Vercel AI SDK, Next.js, and Fireworks.ai Chat Example
+2# KhulnaSoft AI SDK, Next.js, and Fireworks.ai Chat Example
 
-This example shows how to use the [Vercel AI SDK](https://ai.khulnasoft.com/docs) with [Next.js](https://nextjs.org/) and [Fireworks.ai](https://app.fireworks.ai) to create a ChatGPT-like AI-powered streaming chat bot. Fireworks.ai's APIs are compatible with OpenAI's so we use the OpenAI JS SDK but change its base URL to point to Fireworks's API with an environment variable.
+This example shows how to use the [KhulnaSoft AI SDK](https://ai.khulnasoft.com/docs) with [Next.js](https://nextjs.org/) and [Fireworks.ai](https://app.fireworks.ai) to create a ChatGPT-like AI-powered streaming chat bot. Fireworks.ai's APIs are compatible with OpenAI's so we use the OpenAI JS SDK but change its base URL to point to Fireworks's API with an environment variable.
 
 ## Deploy your own
 
@@ -34,9 +34,9 @@ To run the example locally you need to:
 
 ## Learn More
 
-To learn more about OpenAI, Next.js, and the Vercel AI SDK take a look at the following resources:
+To learn more about OpenAI, Next.js, and the KhulnaSoft AI SDK take a look at the following resources:
 
-- [Vercel AI SDK docs](https://ai.khulnasoft.com/docs)
+- [KhulnaSoft AI SDK docs](https://ai.khulnasoft.com/docs)
 - [Vercel AI Playground](https://play.vercel.ai)
 - [Fireworks.ai Documentation](https://readme.fireworks.ai/docs) - learn about OpenAI features and API.
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.

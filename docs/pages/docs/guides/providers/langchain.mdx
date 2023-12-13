@@ -10,13 +10,13 @@ However, LangChain does not provide a way to easily build UIs or a standard way 
 
 ## Example
 
-Here is an example implementation of a chat application that uses both Vercel AI SDK and a composed LangChain chain together with the
+Here is an example implementation of a chat application that uses both KhulnaSoft AI SDK and a composed LangChain chain together with the
 [Next.js](https://nextjs.org/docs) App Router. It includes a LangChain [`PromptTemplate`](https://js.langchain.com/docs/modules/model_io/prompts/prompt_templates/)
 to pass input into a [`ChatOpenAI`](https://js.langchain.com/docs/modules/model_io/models/chat/integrations/openai) model wrapper,
 then streams the result through an encoding output parser.
 
-It takes this stream and uses Vercel AI SDK's [`StreamingTextResponse`](/docs/api-reference/streaming-text-response)
-to pipe text to the client (from the edge) and then Vercel AI SDK's `useChat` to handle the chat UI.
+It takes this stream and uses KhulnaSoft AI SDK's [`StreamingTextResponse`](/docs/api-reference/streaming-text-response)
+to pipe text to the client (from the edge) and then KhulnaSoft AI SDK's `useChat` to handle the chat UI.
 
 ```tsx filename="app/api/chat/route.ts"
 import { NextRequest } from 'next/server';
@@ -88,7 +88,7 @@ export async function POST(req: NextRequest) {
 }
 ```
 
-Then, we use the Vercel AI SDK's [`useChat`](/docs/api-reference/use-chat) method:
+Then, we use the KhulnaSoft AI SDK's [`useChat`](/docs/api-reference/use-chat) method:
 
 ```tsx filename="app/page.tsx"
 'use client';

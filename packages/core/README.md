@@ -1,6 +1,6 @@
-# Vercel AI SDK
+# KhulnaSoft AI SDK
 
-The Vercel AI SDK is **a library for building AI-powered streaming text and chat UIs**.
+The KhulnaSoft AI SDK is **a library for building AI-powered streaming text and chat UIs**.
 
 ## Features
 
@@ -19,7 +19,7 @@ View the full documentation and examples on [ai.khulnasoft.com/docs](https://ai.
 
 ## Example: An AI Chatbot with Next.js and OpenAI
 
-With the Vercel AI SDK, you can build a ChatGPT-like app in just a few lines of code:
+With the KhulnaSoft AI SDK, you can build a ChatGPT-like app in just a few lines of code:
 
 ```tsx
 // ./app/api/chat/route.js

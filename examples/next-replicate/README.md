@@ -1,6 +1,6 @@
-# Vercel AI SDK, Next.js, and Replicate (Llama 2) Chat Example
+# KhulnaSoft AI SDK, Next.js, and Replicate (Llama 2) Chat Example
 
-This example shows how to use the [Vercel AI SDK](https://ai.khulnasoft.com/docs) with [Next.js](https://nextjs.org/) and [Meta's Llama 2 70b Chat model](https://replicate.com/replicate/llama-2-70b-chat) hosted on [Replicate](https://replicate.com) to create a ChatGPT-like AI-powered streaming chat bot.
+This example shows how to use the [KhulnaSoft AI SDK](https://ai.khulnasoft.com/docs) with [Next.js](https://nextjs.org/) and [Meta's Llama 2 70b Chat model](https://replicate.com/replicate/llama-2-70b-chat) hosted on [Replicate](https://replicate.com) to create a ChatGPT-like AI-powered streaming chat bot.
 
 ## Deploy your own
 
@@ -34,9 +34,9 @@ To run the example locally you need to:
 
 ## Learn More
 
-To learn more about OpenAI, Next.js, and the Vercel AI SDK take a look at the following resources:
+To learn more about OpenAI, Next.js, and the KhulnaSoft AI SDK take a look at the following resources:
 
-- [Vercel AI SDK docs](https://ai.khulnasoft.com/docs)
+- [KhulnaSoft AI SDK docs](https://ai.khulnasoft.com/docs)
 - [Vercel AI Playground](https://play.vercel.ai)
 - [Replicate Documentation](https://replicate.com/docs) - learn about Replicate features and API.
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
