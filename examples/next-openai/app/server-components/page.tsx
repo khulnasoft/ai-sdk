@@ -1,5 +1,5 @@
 import OpenAI from 'openai';
-import { OpenAIStream } from 'ai';
+import { OpenAIStream } from '@khulnasoft/ai-sdk';
 import { Suspense } from 'react';
 
 // Optional, but recommended: run on the edge runtime.

@@ -2,7 +2,7 @@ import {
   OpenAIStream,
   StreamingTextResponse,
   experimental_StreamData,
-} from 'ai';
+} from '@khulnasoft/ai-sdk';
 import OpenAI from 'openai';
 import type { ChatCompletionCreateParams } from 'openai/resources/chat';
 

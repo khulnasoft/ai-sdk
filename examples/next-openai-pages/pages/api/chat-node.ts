@@ -1,4 +1,4 @@
-import { OpenAIStream, StreamingTextResponse, streamToResponse } from 'ai';
+import { OpenAIStream, StreamingTextResponse, streamToResponse } from '@khulnasoft/ai-sdk';
 import { NextApiRequest, NextApiResponse } from 'next';
 import OpenAI from 'openai';
 

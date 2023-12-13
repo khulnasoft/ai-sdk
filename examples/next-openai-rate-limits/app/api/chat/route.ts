@@ -1,6 +1,6 @@
 // ./app/api/chat/route.ts
 import OpenAI from 'openai';
-import { OpenAIStream, StreamingTextResponse } from 'ai';
+import { OpenAIStream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 import { kv } from '@vercel/kv';
 import { Ratelimit } from '@upstash/ratelimit';
 

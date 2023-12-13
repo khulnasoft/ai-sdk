@@ -1,4 +1,4 @@
-import { StreamingTextResponse, LangChainStream, Message } from 'ai';
+import { StreamingTextResponse, LangChainStream, Message } from '@khulnasoft/ai-sdk';
 import { ChatOpenAI } from 'langchain/chat_models/openai';
 import { AIMessage, HumanMessage } from 'langchain/schema';
 

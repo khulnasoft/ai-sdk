@@ -1,5 +1,5 @@
 import OpenAI from 'openai';
-import { OpenAIStream } from 'ai';
+import { OpenAIStream } from '@khulnasoft/ai-sdk';
 import { Tokens } from 'ai/react';
 
 export const runtime = 'edge';

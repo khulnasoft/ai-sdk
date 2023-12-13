@@ -3,7 +3,7 @@ import {
   LangChainStream,
   Message,
   experimental_StreamData,
-} from 'ai';
+} from '@khulnasoft/ai-sdk';
 import { ChatOpenAI } from 'langchain/chat_models/openai';
 import { AIMessage, HumanMessage } from 'langchain/schema';
 

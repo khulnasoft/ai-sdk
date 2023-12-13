@@ -1,5 +1,5 @@
 import OpenAI from 'openai';
-import { OpenAIStream, StreamingTextResponse } from 'ai';
+import { OpenAIStream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 
 import { env } from '$env/dynamic/private';
 // You may want to replace the above with a static private env variable

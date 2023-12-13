@@ -1,5 +1,5 @@
 import { HfInference } from '@huggingface/inference';
-import { HuggingFaceStream, StreamingTextResponse } from 'ai';
+import { HuggingFaceStream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 
 // Create a new Hugging Face Inference instance
 const Hf = new HfInference(process.env.HUGGINGFACE_API_KEY);

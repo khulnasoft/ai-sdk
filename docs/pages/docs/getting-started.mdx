@@ -95,7 +95,7 @@ We've written some code to get you started — follow the instructions below to 
 
     ```tsx filename="app/api/completion/route.ts"
     import OpenAI from 'openai';
-    import { OpenAIStream, StreamingTextResponse } from 'ai';
+    import { OpenAIStream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 
     // Create an OpenAI API client (that's edge friendly!)
     const openai = new OpenAI({
@@ -138,7 +138,7 @@ We've written some code to get you started — follow the instructions below to 
 
     ```tsx filename="src/routes/api/completion/+server.js"
     import OpenAI from 'openai';
-    import { OpenAIStream, StreamingTextResponse } from 'ai';
+    import { OpenAIStream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
     import { OPENAI_API_KEY } from '$env/static/private';
 
     // Create an OpenAI API client (that's edge friendly!)

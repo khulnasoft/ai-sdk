@@ -1,4 +1,4 @@
-import { ReplicateStream, StreamingTextResponse } from 'ai';
+import { ReplicateStream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 import Replicate from 'replicate';
 import { experimental_buildLlama2Prompt } from 'ai/prompts';
 

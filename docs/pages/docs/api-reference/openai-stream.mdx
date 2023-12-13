@@ -31,7 +31,7 @@ Below are some examples of how to use `OpenAIStream` with chat and completion mo
 
 ```tsx filename="app/api/chat/route.ts" showLineNumbers
 import OpenAI from 'openai';
-import { OpenAIStream, StreamingTextResponse } from 'ai';
+import { OpenAIStream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 
 // Create an OpenAI API client (that's edge friendly!)
 const openai = new OpenAI({
@@ -62,7 +62,7 @@ export async function POST(req: Request) {
 
 ```tsx filename="app/api/completion/route.ts" showLineNumbers
 import OpenAI from 'openai';
-import { OpenAIStream, StreamingTextResponse } from 'ai';
+import { OpenAIStream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 
 // Create an OpenAI API client (that's edge friendly!)
 const openai = new OpenAI({

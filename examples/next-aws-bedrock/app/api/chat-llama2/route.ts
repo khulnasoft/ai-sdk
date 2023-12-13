@@ -2,7 +2,7 @@ import {
   BedrockRuntimeClient,
   InvokeModelWithResponseStreamCommand,
 } from '@aws-sdk/client-bedrock-runtime';
-import { AWSBedrockLlama2Stream, StreamingTextResponse } from 'ai';
+import { AWSBedrockLlama2Stream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 import { experimental_buildLlama2Prompt } from 'ai/prompts';
 
 // IMPORTANT! Set the runtime to edge

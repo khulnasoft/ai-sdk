@@ -22,7 +22,7 @@ See how to use a Route Handler [here](https://ai.khulnasoft.com/docs/guides/fram
 The Edge Runtime supports the same Response types as in the App Router, so the code is equivalent between the two.
 
 ```typescript
-import { OpenAIStream, StreamingTextResponse } from 'ai';
+import { OpenAIStream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 import OpenAI from 'openai';
 
 // Create an OpenAI API client (that's edge friendly!)
@@ -56,7 +56,7 @@ Node.js offers different Request and Response types compared to the Edge Runtime
 in place of `StreamingTextResponse`.
 
 ```typescript
-import { OpenAIStream, StreamingTextResponse, streamToResponse } from 'ai';
+import { OpenAIStream, StreamingTextResponse, streamToResponse } from '@khulnasoft/ai-sdk';
 import { NextApiRequest, NextApiResponse } from 'next';
 import OpenAI from 'openai';
 

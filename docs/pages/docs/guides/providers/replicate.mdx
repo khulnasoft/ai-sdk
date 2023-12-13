@@ -34,7 +34,7 @@ REPLICATE_API_KEY=xxxxxxxxx
 ### Create a Route Handler
 
 ```tsx filename="app/api/chat/route.ts" showLineNumbers
-import { ReplicateStream, StreamingTextResponse } from 'ai';
+import { ReplicateStream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 import Replicate from 'replicate';
 import { experimental_buildLlama2Prompt } from 'ai/prompts';
 
@@ -113,7 +113,7 @@ export default function Chat() {
 ### Create and stream a completion
 
 ```tsx filename="app/api/completion/route.ts" showLineNumbers
-import { ReplicateStream, StreamingTextResponse } from 'ai';
+import { ReplicateStream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 import Replicate from 'replicate';
 
 const replicate = new Replicate({

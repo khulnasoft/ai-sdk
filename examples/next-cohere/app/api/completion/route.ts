@@ -1,4 +1,4 @@
-import { CohereStream, StreamingTextResponse } from 'ai';
+import { CohereStream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 
 // IMPORTANT! Set the runtime to edge
 export const runtime = 'edge';

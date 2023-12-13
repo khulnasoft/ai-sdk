@@ -65,7 +65,7 @@ Create a Next.js Route Handler that uses the Edge Runtime that we'll use to gene
 
 ```tsx filename="app/api/chat/route.ts" showLineNumbers
 import { Configuration, OpenAIApi } from 'openai-edge';
-import { OpenAIStream, StreamingTextResponse } from 'ai';
+import { OpenAIStream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 
 // Create an OpenAI API client (that's edge friendly!)
 const config = new Configuration({
@@ -103,7 +103,7 @@ By default, the `useChat` hook will use the `POST` Route Handler we created abov
 ```tsx filename="app/page.tsx" showLineNumbers
 'use client';
 
-import { useChat } from 'ai';
+import { useChat } from '@khulnasoft/ai-sdk';
 
 export default function Chat() {
   const { messages, input, handleInputChange, handleSubmit } = useChat();

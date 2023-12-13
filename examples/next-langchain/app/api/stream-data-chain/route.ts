@@ -2,7 +2,7 @@ import {
   LangChainStream,
   StreamingTextResponse,
   experimental_StreamData,
-} from 'ai';
+} from '@khulnasoft/ai-sdk';
 import { LLMChain } from 'langchain/chains';
 import { OpenAI } from 'langchain/llms/openai';
 import { PromptTemplate } from 'langchain/prompts';

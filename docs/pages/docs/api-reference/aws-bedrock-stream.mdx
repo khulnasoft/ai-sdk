@@ -33,7 +33,7 @@ import {
   BedrockRuntimeClient,
   InvokeModelWithResponseStreamCommand,
 } from '@aws-sdk/client-bedrock-runtime';
-import { AWSBedrockAnthropicStream, StreamingTextResponse } from 'ai';
+import { AWSBedrockAnthropicStream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 import { experimental_buildAnthropicPrompt } from 'ai/prompts';
 
 // IMPORTANT! Set the runtime to edge
@@ -85,7 +85,7 @@ import {
   BedrockRuntimeClient,
   InvokeModelWithResponseStreamCommand,
 } from '@aws-sdk/client-bedrock-runtime';
-import { AWSBedrockCohereStream, StreamingTextResponse } from 'ai';
+import { AWSBedrockCohereStream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 
 function buildPrompt(
   messages: { content: string, role: 'system' | 'user' | 'assistant' }[],
@@ -147,7 +147,7 @@ import {
   BedrockRuntimeClient,
   InvokeModelWithResponseStreamCommand,
 } from '@aws-sdk/client-bedrock-runtime';
-import { AWSBedrockLlama2Stream, StreamingTextResponse } from 'ai';
+import { AWSBedrockLlama2Stream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 import { experimental_buildLlama2Prompt } from 'ai/prompts';
 
 export async function POST(req: Request) {

@@ -55,7 +55,7 @@ Server:
 'use server';
 
 import OpenAI from 'openai';
-import { OpenAIStream, experimental_StreamingReactResponse, Message } from 'ai';
+import { OpenAIStream, experimental_StreamingReactResponse, Message } from '@khulnasoft/ai-sdk';
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY!,

@@ -2,7 +2,7 @@ import {
   BedrockRuntimeClient,
   InvokeModelWithResponseStreamCommand,
 } from '@aws-sdk/client-bedrock-runtime';
-import { AWSBedrockCohereStream, StreamingTextResponse } from 'ai';
+import { AWSBedrockCohereStream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 
 // IMPORTANT! Set the runtime to edge
 export const runtime = 'edge';

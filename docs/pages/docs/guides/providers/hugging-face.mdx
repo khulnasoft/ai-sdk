@@ -41,7 +41,7 @@ For this example, we'll create a route handler at `app/api/chat/route.ts` that a
 
 ```tsx filename="app/api/chat/route.ts" showLineNumbers
 import { HfInference } from '@huggingface/inference';
-import { HuggingFaceStream, StreamingTextResponse } from 'ai';
+import { HuggingFaceStream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 import { experimental_buildOpenAssistantPrompt } from 'ai/prompts';
 
 // Create a new HuggingFace Inference instance
@@ -138,7 +138,7 @@ Similar to the Chat Bot example above, we'll create a Next.js Route Handler that
 
 ```tsx filename="app/api/completion/route.ts" showLineNumbers
 import { HfInference } from '@huggingface/inference';
-import { HuggingFaceStream, StreamingTextResponse } from 'ai';
+import { HuggingFaceStream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 
 // Create a new Hugging Face Inference instance
 const Hf = new HfInference(process.env.HUGGINGFACE_API_KEY);

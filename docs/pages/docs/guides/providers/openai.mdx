@@ -38,7 +38,7 @@ For this example, we'll create a route handler at `app/api/chat/route.ts` that a
 
 ```tsx filename="app/api/chat/route.ts" showLineNumbers
 import OpenAI from 'openai';
-import { OpenAIStream, StreamingTextResponse } from 'ai';
+import { OpenAIStream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 
 // Create an OpenAI API client (that's edge friendly!)
 const openai = new OpenAI({
@@ -123,7 +123,7 @@ Similar to the Chat Bot example above, we'll create a Next.js Route Handler that
 
 ```tsx filename="app/api/completion/route.ts" showLineNumbers
 import OpenAI from 'openai';
-import { OpenAIStream, StreamingTextResponse } from 'ai';
+import { OpenAIStream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 
 // Create an OpenAI API client (that's edge friendly!)
 const openai = new OpenAI({
@@ -198,7 +198,7 @@ The OpenAI's API throws an `OpenAI.APIError` when an error occurs during a reque
 
 ```tsx filename="app/api/chat/route.ts"
 import OpenAI from 'openai';
-import { OpenAIStream, StreamingTextResponse } from 'ai';
+import { OpenAIStream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 import { NextResponse } from 'next/server';
 
 const openai = new OpenAI({
@@ -347,7 +347,7 @@ On the server, you can pass that information to GPT-4 Vision.
 
 ```tsx filename="app/api/chat/route.ts" showLineNumbers
 import OpenAI from 'openai';
-import { OpenAIStream, StreamingTextResponse } from 'ai';
+import { OpenAIStream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 
 // Create an OpenAI API client (that's edge friendly!)
 const openai = new OpenAI({

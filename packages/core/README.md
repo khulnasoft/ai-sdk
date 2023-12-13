@@ -24,7 +24,7 @@ With the KhulnaSoft AI SDK, you can build a ChatGPT-like app in just a few lines
 ```tsx
 // ./app/api/chat/route.js
 import OpenAI from 'openai';
-import { OpenAIStream, StreamingTextResponse } from 'ai';
+import { OpenAIStream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,

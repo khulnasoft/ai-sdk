@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useChat } from 'ai/vue';
-import { nanoid } from 'ai';
-import type { FunctionCallHandler, Message } from 'ai';
+import { nanoid } from '@khulnasoft/ai-sdk';
+import type { FunctionCallHandler, Message } from '@khulnasoft/ai-sdk';
 
 const functionCallHandler: FunctionCallHandler = async (
   chatMessages,

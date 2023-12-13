@@ -24,6 +24,7 @@
     "unctx": "^2.3.1"
   },
   "dependencies": {
+    "@khulnasoft/ai-sdk": "workspace:2.2.29",
     "ai": "^2.2.4",
     "langchain": "^0.0.129",
     "nuxt-icon": "^0.5.0",

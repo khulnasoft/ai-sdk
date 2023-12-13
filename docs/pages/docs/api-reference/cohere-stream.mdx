@@ -23,7 +23,7 @@ The `CohereStream` function can be coupled with a `fetch` call to the Cohere API
 Here's a step-by-step example of how to implement this in Next.js:
 
 ```js filename="app/api/completion/route.ts"
-import { StreamingTextResponse, CohereStream } from 'ai';
+import { StreamingTextResponse, CohereStream } from '@khulnasoft/ai-sdk';
 
 export async function POST(req: Request) {
   // Extract the `prompt` from the body of the request

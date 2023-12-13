@@ -24,7 +24,7 @@ Here's a step-by-step example of how to implement this in Next.js:
 
 ```js filename="app/api/completion/route.ts"
 import Anthropic from '@anthropic-ai/sdk';
-import { AnthropicStream, StreamingTextResponse } from 'ai';
+import { AnthropicStream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 import { experimental_buildAnthropicPrompt } from 'ai/prompts';
 
 // Create an Anthropic API client (that's edge friendly??)

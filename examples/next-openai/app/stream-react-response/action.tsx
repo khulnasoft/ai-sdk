@@ -5,7 +5,7 @@ import {
   OpenAIStream,
   experimental_StreamData,
   experimental_StreamingReactResponse,
-} from 'ai';
+} from '@khulnasoft/ai-sdk';
 import { experimental_buildOpenAIMessages } from 'ai/prompts';
 import OpenAI from 'openai';
 import { ChatCompletionCreateParams } from 'openai/resources/chat';

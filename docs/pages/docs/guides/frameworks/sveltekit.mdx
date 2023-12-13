@@ -12,7 +12,7 @@ Create a new file in `src/routes/api/chat/+server.ts` with the following content
 
 ```ts filename="src/routes/api/chat/+server.ts"
 import OpenAI from 'openai';
-import { OpenAIStream, StreamingTextResponse } from 'ai';
+import { OpenAIStream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 
 import { env } from '$env/dynamic/private';
 // You may want to replace the above with a static private env variable

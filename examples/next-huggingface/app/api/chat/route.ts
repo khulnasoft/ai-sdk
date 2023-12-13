@@ -1,5 +1,5 @@
 import { HfInference } from '@huggingface/inference';
-import { HuggingFaceStream, StreamingTextResponse } from 'ai';
+import { HuggingFaceStream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 import { experimental_buildOpenAssistantPrompt } from 'ai/prompts';
 
 // Create a new HuggingFace Inference instance

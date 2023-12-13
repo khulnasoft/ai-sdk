@@ -1,4 +1,4 @@
-import { OpenAIStream, StreamingTextResponse } from 'ai';
+import { OpenAIStream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 import OpenAI from 'openai';
 
 // Create an OpenAI API client (that's edge friendly!)

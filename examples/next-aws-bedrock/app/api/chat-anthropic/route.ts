@@ -2,7 +2,7 @@ import {
   BedrockRuntimeClient,
   InvokeModelWithResponseStreamCommand,
 } from '@aws-sdk/client-bedrock-runtime';
-import { AWSBedrockAnthropicStream, StreamingTextResponse } from 'ai';
+import { AWSBedrockAnthropicStream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 import { experimental_buildAnthropicPrompt } from 'ai/prompts';
 
 // IMPORTANT! Set the runtime to edge

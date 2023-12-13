@@ -1,4 +1,4 @@
-import { FunctionCallHandler, Message, nanoid } from 'ai';
+import { FunctionCallHandler, Message, nanoid } from '@khulnasoft/ai-sdk';
 import { useChat } from 'ai/solid';
 import { For, JSX } from 'solid-js';
 

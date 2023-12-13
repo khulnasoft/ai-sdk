@@ -1,5 +1,5 @@
 import Anthropic from '@anthropic-ai/sdk';
-import { AnthropicStream, StreamingTextResponse } from 'ai';
+import { AnthropicStream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 import { experimental_buildAnthropicPrompt } from 'ai/prompts';
 
 // Create an Anthropic API client (that's edge friendly??)

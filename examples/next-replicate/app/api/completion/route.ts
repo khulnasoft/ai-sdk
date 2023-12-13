@@ -1,4 +1,4 @@
-import { ReplicateStream, StreamingTextResponse } from 'ai';
+import { ReplicateStream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 import Replicate from 'replicate';
 
 const replicate = new Replicate({

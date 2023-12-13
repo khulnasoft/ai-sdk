@@ -1,6 +1,6 @@
 'use client';
 
-import { FunctionCallHandler, nanoid } from 'ai';
+import { FunctionCallHandler, nanoid } from '@khulnasoft/ai-sdk';
 import { Message, useChat } from 'ai/react';
 
 export default function Chat() {

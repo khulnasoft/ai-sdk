@@ -451,7 +451,7 @@ The server API formats the prompt for the AI model, and then it uses the [OpenAI
 
 ```tsx filename="app/api/completion/route.ts"
 import OpenAI from 'openai';
-import { OpenAIStream, StreamingTextResponse } from 'ai';
+import { OpenAIStream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 
 export const runtime = 'edge';
 

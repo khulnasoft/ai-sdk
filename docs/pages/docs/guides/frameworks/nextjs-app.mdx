@@ -15,7 +15,7 @@ Below is a minimal route handler for using the OpenAI Chat API with the `openai`
 
 ```typescript filename="app/api/chat/route.ts" showLineNumbers
 import OpenAI from 'openai';
-import { OpenAIStream, StreamingTextResponse } from 'ai';
+import { OpenAIStream, StreamingTextResponse } from '@khulnasoft/ai-sdk';
 
 // Optional, but recommended: run on the edge runtime.
 // See https://vercel.com/docs/concepts/functions/edge-functions
@@ -52,7 +52,7 @@ The Route Handler code can be adapted to work with [Server Components](https://n
 
 ```typescript filename="app/page.tsx" showLineNumbers
 import OpenAI from 'openai';
-import { OpenAIStream } from 'ai';
+import { OpenAIStream } from '@khulnasoft/ai-sdk';
 import { Suspense } from 'react';
 
 // Optional, but recommended: run on the edge runtime.
