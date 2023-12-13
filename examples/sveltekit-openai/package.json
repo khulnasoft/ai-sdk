@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "openai": "4.16.1",
-    "@khulnasoft/ai-sdk": "2.2.29"
+    "@khulnasoft/ai-sdk": "3.0.0"
   },
   "devDependencies": {
     "@fontsource/fira-mono": "^4.5.10",

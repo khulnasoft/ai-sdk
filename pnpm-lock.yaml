@@ -55,7 +55,7 @@ importers:
         specifier: 0.10.0
         version: 0.10.0
       '@khulnasoft/ai-sdk':
-        specifier: 2.2.29
+        specifier: 3.0.0
         version: link:../../packages/core
       next:
         specifier: 14.0.3
@@ -101,7 +101,7 @@ importers:
         specifier: 3.451.0
         version: 3.451.0
       '@khulnasoft/ai-sdk':
-        specifier: 2.2.29
+        specifier: 3.0.0
         version: link:../../packages/core
       next:
         specifier: 14.0.3
@@ -144,7 +144,7 @@ importers:
   examples/next-cohere:
     dependencies:
       '@khulnasoft/ai-sdk':
-        specifier: 2.2.29
+        specifier: 3.0.0
         version: link:../../packages/core
       next:
         specifier: 14.0.3
@@ -187,7 +187,7 @@ importers:
   examples/next-fireworks:
     dependencies:
       '@khulnasoft/ai-sdk':
-        specifier: 2.2.29
+        specifier: 3.0.0
         version: link:../../packages/core
       next:
         specifier: 14.0.3
@@ -236,7 +236,7 @@ importers:
         specifier: ^2.5.1
         version: 2.6.4
       '@khulnasoft/ai-sdk':
-        specifier: 2.2.29
+        specifier: 3.0.0
         version: link:../../packages/core
       next:
         specifier: 14.0.3
@@ -279,7 +279,7 @@ importers:
   examples/next-langchain:
     dependencies:
       '@khulnasoft/ai-sdk':
-        specifier: 2.2.29
+        specifier: 3.0.0
         version: link:../../packages/core
       langchain:
         specifier: ^0.0.196
@@ -325,7 +325,7 @@ importers:
   examples/next-openai:
     dependencies:
       '@khulnasoft/ai-sdk':
-        specifier: 2.2.29
+        specifier: 3.0.0
         version: link:../../packages/core
       next:
         specifier: 14.0.3
@@ -371,7 +371,7 @@ importers:
   examples/next-openai-pages:
     dependencies:
       '@khulnasoft/ai-sdk':
-        specifier: 2.2.29
+        specifier: 3.0.0
         version: link:../../packages/core
       next:
         specifier: 14.0.3
@@ -417,7 +417,7 @@ importers:
   examples/next-openai-rate-limits:
     dependencies:
       '@khulnasoft/ai-sdk':
-        specifier: 2.2.29
+        specifier: 3.0.0
         version: link:../../packages/core
       '@upstash/ratelimit':
         specifier: ^0.4.3
@@ -472,7 +472,7 @@ importers:
   examples/next-replicate:
     dependencies:
       '@khulnasoft/ai-sdk':
-        specifier: ^2.2.29
+        specifier: ^3.0.0
         version: link:../../packages/core
       next:
         specifier: 14.0.3
@@ -518,7 +518,7 @@ importers:
   examples/nuxt-langchain:
     dependencies:
       '@khulnasoft/ai-sdk':
-        specifier: workspace:2.2.29
+        specifier: workspace:3.0.0
         version: link:../../packages/core
       ai:
         specifier: ^2.2.4
@@ -576,7 +576,7 @@ importers:
   examples/nuxt-openai:
     devDependencies:
       '@khulnasoft/ai-sdk':
-        specifier: 2.2.29
+        specifier: 3.0.0
         version: link:../../packages/core
       '@nuxt/devtools':
         specifier: 0.8.0
@@ -627,7 +627,7 @@ importers:
   examples/solidstart-openai:
     dependencies:
       '@khulnasoft/ai-sdk':
-        specifier: 2.2.29
+        specifier: 3.0.0
         version: link:../../packages/core
       '@solidjs/meta':
         specifier: ^0.28.2
@@ -670,7 +670,7 @@ importers:
   examples/sveltekit-openai:
     dependencies:
       '@khulnasoft/ai-sdk':
-        specifier: 2.2.29
+        specifier: 3.0.0
         version: link:../../packages/core
       openai:
         specifier: 4.16.1

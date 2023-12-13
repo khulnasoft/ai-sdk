@@ -1,6 +1,6 @@
 {
   "name": "@khulnasoft/ai-sdk",
-  "version": "2.2.29",
+  "version": "3.0.0",
   "license": "Apache-2.0",
   "sideEffects": false,
   "main": "./dist/index.js",
