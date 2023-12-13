@@ -4,6 +4,6 @@ If you believe you have found a security vulnerability in the AI SDK, we encoura
 
 We will investigate all legitimate reports and do our best to quickly fix the problem.
 
-Email `security@vercel.com` to disclose any security vulnerabilities.
+Email `security@khulnasoft.com` to disclose any security vulnerabilities.
 
 https://vercel.com/security

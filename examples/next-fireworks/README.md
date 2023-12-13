@@ -1,6 +1,6 @@
 2# Vercel AI SDK, Next.js, and Fireworks.ai Chat Example
 
-This example shows how to use the [Vercel AI SDK](https://sdk.vercel.ai/docs) with [Next.js](https://nextjs.org/) and [Fireworks.ai](https://app.fireworks.ai) to create a ChatGPT-like AI-powered streaming chat bot. Fireworks.ai's APIs are compatible with OpenAI's so we use the OpenAI JS SDK but change its base URL to point to Fireworks's API with an environment variable.
+This example shows how to use the [Vercel AI SDK](https://ai.khulnasoft.com/docs) with [Next.js](https://nextjs.org/) and [Fireworks.ai](https://app.fireworks.ai) to create a ChatGPT-like AI-powered streaming chat bot. Fireworks.ai's APIs are compatible with OpenAI's so we use the OpenAI JS SDK but change its base URL to point to Fireworks's API with an environment variable.
 
 ## Deploy your own
 
@@ -10,18 +10,18 @@ Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_mediu
 
 ## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/khulnasoft/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
 
 ```bash
-npx create-next-app --example https://github.com/vercel/ai/tree/main/examples/next-fireworks next-fireworks-app
+npx create-next-app --example https://github.com/khulnasoft/ai-sdk/tree/main/examples/next-fireworks next-fireworks-app
 ```
 
 ```bash
-yarn create next-app --example https://github.com/vercel/ai/tree/main/examples/next-fireworks next-fireworks-app
+yarn create next-app --example https://github.com/khulnasoft/ai-sdk/tree/main/examples/next-fireworks next-fireworks-app
 ```
 
 ```bash
-pnpm create next-app --example https://github.com/vercel/ai/tree/main/examples/next-fireworks next-fireworks-app
+pnpm create next-app --example https://github.com/khulnasoft/ai-sdk/tree/main/examples/next-fireworks next-fireworks-app
 ```
 
 To run the example locally you need to:
@@ -36,7 +36,7 @@ To run the example locally you need to:
 
 To learn more about OpenAI, Next.js, and the Vercel AI SDK take a look at the following resources:
 
-- [Vercel AI SDK docs](https://sdk.vercel.ai/docs)
+- [Vercel AI SDK docs](https://ai.khulnasoft.com/docs)
 - [Vercel AI Playground](https://play.vercel.ai)
 - [Fireworks.ai Documentation](https://readme.fireworks.ai/docs) - learn about OpenAI features and API.
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.

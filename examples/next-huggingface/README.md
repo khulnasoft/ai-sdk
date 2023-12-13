@@ -1,6 +1,6 @@
 # Vercel AI SDK, Next.js, and Hugging Face Chat Example
 
-This example shows how to use the [Vercel AI SDK](https://sdk.vercel.ai/docs) with [Next.js](https://nextjs.org/) and the [Hugging Face Inference](https://huggingface.co) to create a ChatGPT-like AI-powered streaming chat bot with [Open Assistant's SFT-4 12B](https://huggingface.co/OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5) as the chat model.
+This example shows how to use the [Vercel AI SDK](https://ai.khulnasoft.com/docs) with [Next.js](https://nextjs.org/) and the [Hugging Face Inference](https://huggingface.co) to create a ChatGPT-like AI-powered streaming chat bot with [Open Assistant's SFT-4 12B](https://huggingface.co/OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5) as the chat model.
 
 ## Deploy your own
 
@@ -10,18 +10,18 @@ Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_mediu
 
 ## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/khulnasoft/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
 
 ```bash
-npx create-next-app --example https://github.com/vercel/ai/tree/main/examples/next-huggingface next-huggingface-app
+npx create-next-app --example https://github.com/khulnasoft/ai-sdk/tree/main/examples/next-huggingface next-huggingface-app
 ```
 
 ```bash
-yarn create next-app --example https://github.com/vercel/ai/tree/main/examples/next-huggingface next-huggingface-app
+yarn create next-app --example https://github.com/khulnasoft/ai-sdk/tree/main/examples/next-huggingface next-huggingface-app
 ```
 
 ```bash
-pnpm create next-app --example https://github.com/vercel/ai/tree/main/examples/next-huggingface next-huggingface-app
+pnpm create next-app --example https://github.com/khulnasoft/ai-sdk/tree/main/examples/next-huggingface next-huggingface-app
 ```
 
 To run the example locally you need to:
@@ -44,7 +44,7 @@ The model in the example is [Open Assistant SFT-4 12B](https://huggingface.co/Op
 
 To learn more about Hugging Face, Next.js, and the Vercel AI SDK take a look at the following resources:
 
-- [Vercel AI SDK docs](https://sdk.vercel.ai/docs)
+- [Vercel AI SDK docs](https://ai.khulnasoft.com/docs)
 - [Vercel AI Playground](https://play.vercel.ai)
 - [Hugging Face Inference Documentation](https://huggingface.co/docs/huggingface.js/inference/README) - learn about Hugging Face Inference SDK features and API.
 - [Open-Assistant SFT-4 12B Model](https://huggingface.co/OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5) - learn about the AI model in use

@@ -15,7 +15,7 @@ The Vercel AI SDK is **a library for building AI-powered streaming text and chat
 pnpm install ai
 ```
 
-View the full documentation and examples on [sdk.vercel.ai/docs](https://sdk.vercel.ai/docs)
+View the full documentation and examples on [ai.khulnasoft.com/docs](https://ai.khulnasoft.com/docs)
 
 ## Example: An AI Chatbot with Next.js and OpenAI
 
@@ -75,7 +75,7 @@ export default function Chat() {
 
 ---
 
-View the full documentation and examples on [sdk.vercel.ai/docs](https://sdk.vercel.ai/docs).
+View the full documentation and examples on [ai.khulnasoft.com/docs](https://ai.khulnasoft.com/docs).
 
 ## Authors
 
@@ -87,4 +87,4 @@ This library is created by [Vercel](https://vercel.com) and [Next.js](https://ne
 - Malte Ubl ([@cramforce](https://twitter.com/cramforce)) - [Vercel](https://vercel.com)
 - Justin Ridgewell ([@jridgewell](https://github.com/jridgewell)) - [Vercel](https://vercel.com)
 
-[Contributors](https://github.com/vercel/ai/graphs/contributors)
+[Contributors](https://github.com/khulnasoft/ai-sdk/graphs/contributors)

@@ -36,7 +36,7 @@ export interface AIStreamCallbacksAndOptions {
   onToken?: (token: string) => Promise<void> | void;
   /**
    * A flag for enabling the experimental_StreamData class and the new protocol.
-   * @see https://github.com/vercel-labs/ai/pull/425
+   * @see https://github.com/khulnasoft-labs/ai/pull/425
    *
    * When StreamData is rolled out, this will be removed and the new protocol will be used by default.
    */

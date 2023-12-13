@@ -31,14 +31,14 @@
     "turbo": "^1.10.13",
     "vitest": "^0.34.6"
   },
-  "homepage": "https://sdk.vercel.ai/docs",
+  "homepage": "https://ai.khulnasoft.com/docs",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vercel/ai.git"
+    "url": "git+https://github.com/khulnasoft/ai-sdk.git"
   },
   "license": "Apache License",
   "bugs": {
-    "url": "https://github.com/vercel/ai/issues"
+    "url": "https://github.com/khulnsoft/ai-sdk/issues"
   },
   "keywords": [
     "ai"

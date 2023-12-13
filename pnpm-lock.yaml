@@ -760,7 +760,7 @@ importers:
       '@types/react-dom':
         specifier: ^18.2.0
         version: 18.2.4
-      '@vercel/ai-tsconfig':
+      '@khulnasoft/ai-sdk-tsconfig':
         specifier: workspace:*
         version: link:../../tools/tsconfig
       '@vitejs/plugin-react':

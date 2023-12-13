@@ -1,6 +1,6 @@
 # Vercel AI SDK, Next.js, and AWS Bedrock Example
 
-This example shows how to use the [Vercel AI SDK](https://sdk.vercel.ai/docs) with [Next.js](https://nextjs.org/) and [Amazon Bedrock](https://aws.amazon.com/bedrock/) to create a ChatGPT-like AI-powered streaming chat bot.
+This example shows how to use the [Vercel AI SDK](https://ai.khulnasoft.com/docs) with [Next.js](https://nextjs.org/) and [Amazon Bedrock](https://aws.amazon.com/bedrock/) to create a ChatGPT-like AI-powered streaming chat bot.
 
 ## Deploy your own
 
@@ -27,7 +27,7 @@ To run the example locally you need to:
 
 To learn more about AWS Bedrock, Next.js, and the Vercel AI SDK take a look at the following resources:
 
-- [Vercel AI SDK docs](https://sdk.vercel.ai/docs)
+- [Vercel AI SDK docs](https://ai.khulnasoft.com/docs)
 - [Vercel AI Playground](https://play.vercel.ai)
 - [AWS Bedrock](https://aws.amazon.com/bedrock/)
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
