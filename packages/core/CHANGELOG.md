@@ -1,5 +1,11 @@
 # ai
 
+## 3.0.0
+
+### Major Changes
+
+- 7d9684a: test
+
 ## 2.2.31
 
 ### Patch Changes
