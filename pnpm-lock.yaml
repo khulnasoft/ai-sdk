@@ -771,8 +771,8 @@ importers:
         specifier: 0.3.10
         version: 0.3.10(@solidjs/meta@0.29.3)(@solidjs/router@0.8.2)(solid-js@1.8.7)(solid-start-node@0.3.10)(vite@4.5.2)
       undici:
-        specifier: ^5.15.1
-        version: 5.28.2
+        specifier: ^5.28.3
+        version: 5.28.3
     devDependencies:
       autoprefixer:
         specifier: ^10.4.13
@@ -4368,6 +4368,7 @@ packages:
     dependencies:
       is-glob: 4.0.3
       micromatch: 4.0.5
+      napi-wasm: 1.1.0
     dev: true
     bundledDependencies:
       - napi-wasm
@@ -11428,6 +11429,10 @@ packages:
     hasBin: true
     dev: true
 
+  /napi-wasm@1.1.0:
+    resolution: {integrity: sha512-lHwIAJbmLSjF9VDRm9GoVOy9AGp3aIvkjv+Kvz9h16QR3uSVYH78PNQUnT2U4X53mhlnV2M7wrhibQ3GHicDmg==}
+    dev: true
+
   /natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
 
@@ -12235,7 +12240,7 @@ packages:
       fast-glob: 3.3.2
       js-yaml: 4.1.0
       supports-color: 9.4.0
-      undici: 5.28.2
+      undici: 5.28.3
       yargs-parser: 21.1.1
     dev: true
 
@@ -14047,7 +14052,7 @@ packages:
       solid-js: 1.8.7
       solid-start-node: 0.3.10(solid-start@0.3.10)(vite@4.5.2)
       terser: 5.27.0
-      undici: 5.28.2
+      undici: 5.28.3
       vite: 4.5.2(@types/node@17.0.45)
       vite-plugin-inspect: 0.7.42(rollup@3.29.4)(vite@4.5.2)
       vite-plugin-solid: 2.7.2(solid-js@1.8.7)(vite@4.5.2)
@@ -15116,8 +15121,8 @@ packages:
       '@fastify/busboy': 2.1.0
     dev: true
 
-  /undici@5.28.2:
-    resolution: {integrity: sha512-wh1pHJHnUeQV5Xa8/kyQhO7WFa8M34l026L5P/+2TYiakvGy5Rdc8jWZVyG7ieht/0WgJLEd3kcU5gKx+6GC8w==}
+  /undici@5.28.3:
+    resolution: {integrity: sha512-3ItfzbrhDlINjaP0duwnNsKpDQk3acHI3gVJ1z4fmwMK31k5G9OVIAMLSIaP6w4FaGkaAkN6zaQO9LUvZ1t7VA==}
     engines: {node: '>=14.0'}
     dependencies:
       '@fastify/busboy': 2.1.0
